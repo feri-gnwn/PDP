@@ -57,7 +57,7 @@ void bacaDataDariFile()
                   dataMahasiswa[jumlahMahasiswa].kelas,
                   dataMahasiswa[jumlahMahasiswa].tempatTanggalLahir) == 5)
     {
-        jumlahMahasiswa++; // jika berhasil, maka jumlahMahasiswa akan bertambah 1 untuk menunjuk ke element berikutnya dlm array dan melanjutkan membaca array yg baru
+        jumlahMahasiswa++; 
     }
     fclose(file); // menutup file untuk menghindari kerusakan file
 }
